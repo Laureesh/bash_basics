@@ -23,13 +23,11 @@ echo "The total number of pixels is $totalPixels"
 # exercise: ask the user for the width and height and present total
 # number of pixels
 
-echo ""
-echo "What is the width of your display?"
+echo "Enter the width of your chakra display:"
 read width
-echo ""
-echo "What is the height of your display?"
+
+echo "Enter the height of your chakra display:"
 read height
 
-echo ""
-pixelTotal=$(( $width * $height ))
-echo "Your display has ${pixelTotal} pixels." 
+pixelTotal=$((width * height))
+echo "Your display contains $pixelTotal pixels of pure chakra."
